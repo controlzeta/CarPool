@@ -28,6 +28,7 @@ h6 {
 .lead {
     font-size: 18px;
     font-weight: 400;
+    text-align: justify;
 }
 
 .intro-header {
@@ -35,7 +36,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/world.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -92,6 +93,18 @@ h6 {
     letter-spacing: 2px;
 }
 
+.content-section-runners{
+    padding: 50px 0;
+    background: #0e7a9e;
+    color: white;
+}
+
+.content-section-infographic{
+    padding: 50px 0;
+    background: #11981b;
+    color: white;
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -114,10 +127,11 @@ h6 {
 }
 
 .banner {
-    padding: 100px 0;
+    padding: 240px 0;
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
+	min-height:580px;
 }
 
 .banner h2 {
