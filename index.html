@@ -6,11 +6,26 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Vamos Juntos es una app que conecta a personas, como tú, que buscan viajar de una lugar a otro, sin gastar tanto conociendo gente nueva, reduce tu huella de carbono y ayuda al planeta.">
+    <meta name="keywords" content="Carpool, Compartir, auto, Republica Dominicana, App, Viajar, Conocer Gente, Ecología">
     <meta name="author" content="">
     <link rel="icon" href="img/favicon.ico">
     <title> Vamos Juntos | Carpool </title>
-
+    <!--             Open Graph              -->
+    <meta property="og:title" content="Vamos Juntos | Carpool" />
+    <meta property="og:description" content="Vamos Juntos es una app que conecta a personas, como tú, que buscan viajar de una lugar a otro, sin gastar tanto conociendo gente nueva, reduce tu huella de carbono y ayuda al planeta" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.vamosjuntos.com.do" />
+    <meta property="og:image" content="img/world.png" />
+    <!--             Open Graph              -->
+    <!-- Twitter Card  -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="controlzetaweb">
+    <meta name="twitter:title" content="Vamos Juntos | Carpool">
+    <meta name="twitter:description" content="Vamos Juntos es una app que conecta a personas, como tú, que buscan viajar de una lugar a otro, sin gastar tanto conociendo gente nueva, reduce tu huella de carbono y ayuda al planeta">
+    <meta name="twitter:image" content="img/world.png">
+    <meta name="twitter:image:alt" content="Vamos Juntos | Carpool">
+    <!-- Twitter Card  -->
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -83,14 +98,12 @@
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                <a href="http://www.carpoolworld.com/dom-rep" class="btn btn-default btn-lg btn-info"><i class="fa fa-user fa-fw"></i> <span class="network-name">Registrate Gratis!</span></a>
                             </li>
                             <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                                <a href="https://www.carpoolworld.com/login.html" class="btn btn-default btn-lg btn-success"><i class="fa fa-users fa-fw"></i> <span class="network-name">Miembros</span></a>
                             </li>
-                            <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -219,7 +232,7 @@
     </div>
     <!-- /.content-section-a -->
 	
-	<div class="content banner">
+	<div class="content banner" style="display:none;">
         <div class="row text-center" style="min-height:180px;"> 
             <h3 style="color:white;">Registrate Gratis ahora!</h3>
             <div class="col-lg-6 col-xs-12 text-center" style="padding: 50px 0;">
@@ -273,7 +286,19 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <script type="application/ld+json">
+            { "@context" : "http://schema.org",
+            "@type" : "Organization",
+            "name" : "Vamos Juntos",
+            "url" : "http://www.vamosjuntos.com.do",
+            "logo": "http://www.vamosjuntos.com.do/img/world.png",
+            "brand" : "Vamos Juntos",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Santo Domingo"
+                }
+            }
+        </script>
 </body>
 
 </html>
